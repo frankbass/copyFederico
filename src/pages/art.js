@@ -7,8 +7,8 @@ import SEO from "../components/seo"
 const artPage = () => (
   <Layout>
     <SEO title="Page three" />
-    <h1>Art Work</h1>
-    
+    <h2>Art Work</h2>
+
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

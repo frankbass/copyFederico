@@ -11,18 +11,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`costume`, `dance`, `art`]} />
 
-    <div className="topnav">
 
-      <Link className="button" to="/costume/">costume design</Link>
 
-      <Link className="button" to="/art/">art work</Link>
+  
 
-      <Link className="button" to="/about/">about</Link>
-    </div>
-
-    <div style={{ maxWidth: `1000px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
   </Layout>
 )
 

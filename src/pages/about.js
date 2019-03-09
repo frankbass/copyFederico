@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const aboutPage = () => (
   <Layout>
     <SEO title="about" />
-    <h1 className="pagecontent">About things...</h1>
+    <h2 className="pagecontent">About things...</h2>
     <p className="pagecontent">But I must explain to you how all this mistaken idea of
     denouncing of a pleasure and praising pain was born and I
     will give you a complete account of the system, and expound

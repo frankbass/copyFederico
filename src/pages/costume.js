@@ -8,7 +8,7 @@ import Image from "../components/image"
 const costumePage = () => (
   <Layout>
     <SEO title="costume" />
-    <h1>Costume Design</h1>
+    <h2>Costume Design</h2>
     <div className="pagecontent" style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
