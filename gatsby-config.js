@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Federico Polucci`,
-    description: `Federico is a great human being!`,
-    author: `@gatsbyjs`,
+    title: `FEDERICO POLUCCI`,
+    description: `Federico Polucci, artist and costume designer`,
+    author: `Michael Tuttle`,
   },
   plugins: [
     `gatsby-plugin-sass`,

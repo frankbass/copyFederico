@@ -8,11 +8,9 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
 
-
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`costume`, `dance`, `art`]} />
 
-    <h1>Other some text</h1>
     <div className="topnav">
 
       <Link className="button" to="/costume/">costume design</Link>
@@ -22,14 +20,9 @@ const IndexPage = () => (
       <Link className="button" to="/about/">about</Link>
     </div>
 
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div style={{ maxWidth: `1000px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-
-
-
-
-
   </Layout>
 )
 
